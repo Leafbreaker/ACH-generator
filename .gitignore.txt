@@ -1,0 +1,5 @@
+.flaskenv
+.DS_Store
+venv
+libgit*
+Dockerfile
