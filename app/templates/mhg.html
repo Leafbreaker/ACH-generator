@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% set active_page = "index" %}
+
+{% block content %}
+
+<center>
+    <form autocomplete="off" action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>
+                        <h5>{{ form.who_1.label }}</h5>
+                        {{ form.who_1(size=32) }}<br>
+                        {% for error in form.who_1.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p>
+                        <h5>{{ form.what_1.label }}</h5>
+                        {{ form.what_1(size=32) }}<br>
+                        {% for error in form.what_1.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+                        <h5>{{ form.why_1.label }}</h5>
+                        {{ form.why_1(size=32) }}<br>
+                        {% for error in form.why_1.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    
+                </div>  
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>
+                        {{ form.who_2(size=32) }}<br>
+                        {% for error in form.who_2.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p>
+                        {{ form.what_2(size=32) }}<br>
+                        {% for error in form.what_2.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+                        {{ form.why_2(size=32) }}<br>
+                        {% for error in form.why_2.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    
+                </div>  
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>
+                        {{ form.who_3(size=32) }}<br>
+                        {% for error in form.who_3.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p>
+                        {{ form.what_3(size=32) }}<br>
+                        {% for error in form.what_3.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+                        {{ form.why_3(size=32) }}<br>
+                        {% for error in form.why_3.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    </p>
+                    
+                </div>  
+            </div>
+        </div>
+        
+
+        <p>{{ form.submit() }}</p>
+    </form>
+</center>
+
+<script>
+
+</script>
+{% endblock %}
