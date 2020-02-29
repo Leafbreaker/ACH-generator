@@ -51,7 +51,7 @@ $(document).keypress(function(event){
     }
     if (window.counter == window.all_hypos.length){
         document.cookie = "scoreboard=" + window.scoreboard.toString();
-        windows.location.replace( {{url_for('scored')}} );
+        window.location = '/scored';
     }
 
 });

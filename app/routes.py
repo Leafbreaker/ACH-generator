@@ -5,6 +5,8 @@ from app.forms import MalwareForm, SerialForm, ACHForm
 
 from json import dumps
 import os, time, datetime, re, subprocess, smtplib, ssl
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from itertools import product
 
 #Current JSON format version
@@ -23,7 +25,6 @@ LOG_FOLDER = os.path.dirname(os.path.realpath(__file__)) + "/logs/"
 def mhg():
     form = ACHForm()
     if form.validate_on_submit():
-        flash('Hypothesis with who: {} ,what {} and why: {}has been submitted!'.format(form.who_1.data, form.what_1.data, form.why_1.data))
 
         #Extract data from forms
         who = [form.who_1.data,form.who_2.data, form.who_3.data]
