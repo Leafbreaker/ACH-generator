@@ -29,10 +29,20 @@
       text-align: center;
       padding: 50px 0;
       background-color: #3A3F44;
-      width: 80%;
+      width: 100%;
       height: 150px;
       margin: 100px;
   }
+
+  .result-table {
+    border: 2px solid black;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #3A3F44;
+    width: 100%;
+    height: 150px;
+}
   .top_buffer {
       margin-top:20px;
       }
@@ -117,4 +127,8 @@
   .autocomplete-active {
     background-color: DodgerBlue !important; 
     color: #ffffff; 
+  }
+
+  #logo {
+    height: 50px;
   }
