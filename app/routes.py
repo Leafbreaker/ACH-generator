@@ -5,8 +5,6 @@ from app.forms import MalwareForm, SerialForm, ACHForm
 
 from json import dumps
 import os, time, datetime, re, subprocess, smtplib, ssl
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from itertools import product
 
 #Current JSON format version
