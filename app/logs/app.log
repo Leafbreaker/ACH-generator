@@ -1328,3 +1328,53 @@ werkzeug - INFO -  * Debugger PIN: 224-662-912
 werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:31:09] "[32mPOST /mhg HTTP/1.1[0m" 302 -
 werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:31:10] "[37mGET /hypothesis_elimination HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:06] "[37mGET /mhg HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:13] "[32mPOST /mhg HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:13] "[37mGET /hypothesis_elimination HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:19] "[37mGET /mhg HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:26] "[32mPOST /mhg HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:26] "[37mGET /hypothesis_elimination HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [01/Mar/2020 23:50:36] "[37mGET /mhg HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 224-662-912
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:23] "[37mGET /mhg HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[35m[1mPOST /mhg HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:38:29] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 224-662-912
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 224-662-912
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[35m[1mPOST /mhg HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:43:22] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 224-662-912
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[35m[1mPOST /mhg HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
