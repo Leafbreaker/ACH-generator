@@ -3,3 +3,4 @@
 venv
 libgit*
 Dockerfile
+app/logs/app.log
