@@ -1029,12 +1029,3 @@ werkzeug - INFO - 127.0.0.1 - - [29/Feb/2020 05:29:51] "[37mGET /scored HTTP/1.
 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2020 05:30:49] "[37mGET /scored HTTP/1.1[0m" 200 -
 werkzeug - INFO - 127.0.0.1 - - [29/Feb/2020 06:03:13] "[37mGET /mhg HTTP/1.1[0m" 200 -
 werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
-werkzeug - INFO -  * Restarting with stat
-werkzeug - WARNING -  * Debugger is active!
-werkzeug - INFO -  * Debugger PIN: 224-662-912
-werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-werkzeug - INFO - 127.0.0.1 - - [29/Feb/2020 14:25:12] "[37mPOST /mhg HTTP/1.1[0m" 200 -
-werkzeug - INFO -  * Restarting with stat
-werkzeug - WARNING -  * Debugger is active!
-werkzeug - INFO -  * Debugger PIN: 224-662-912
-werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

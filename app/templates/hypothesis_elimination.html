@@ -67,7 +67,8 @@ $(document).ready(function(){
 
     var dummy = window.all_hypos;
     $.each(dummy, function(i, hypo){
-        window.all_hypos[i] = hypo.replace(/,/g, '');
+        var a = hypo.replace(/,/g, '');
+        window.all_hypos[i] = a.replace(/^u/g, '');
     });
 
     $("#hypo-frame").text(window.all_hypos[window.counter])
