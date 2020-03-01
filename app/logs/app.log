@@ -1378,3 +1378,7 @@ werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger
 werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
 werkzeug - INFO - 127.0.0.1 - - [02/Mar/2020 00:44:13] "[37mGET /mhg?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
 werkzeug - INFO -  * Detected change in 'C:\\Users\\yoshi\\My Documents\\git\\ACH-generator\\app\\routes.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 224-662-912
+werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
