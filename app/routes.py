@@ -30,6 +30,7 @@ def mhg():
         who = [form.who_1.data,form.who_2.data, form.who_3.data]
         what = [form.what_1.data,form.what_2.data, form.what_3.data]
         why = [form.why_1.data,form.why_2.data, form.why_3.data]
+               
 
         generated_hypotheses = []
         for r in product(who, what, why):
