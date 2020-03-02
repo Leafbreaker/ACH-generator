@@ -61,9 +61,6 @@ def scored():
         finished.append([hypo[0],hypo[1].strip()])
     
     finished.sort(reverse=True)
-
-    for h in finished:
-        print(h)
     
 
 

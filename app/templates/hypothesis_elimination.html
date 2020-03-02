@@ -61,13 +61,13 @@ $(document).ready(function(){
     window.all_hypos = "{{ all_hypos }}";
     console.log(window.all_hypos)
     window.counter = 0
-    var i = all_hypos.replace(/u&#39;|&#39;|\[/g, '');
+    var i = all_hypos.replace(/&#39;|u&#39;|\[/g, '');
     var y = i.slice(0,-2);
     window.all_hypos = y.split('],');
 
     var dummy = window.all_hypos;
     $.each(dummy, function(i, hypo){
-        var a = hypo.replace(/,/g, '');
+        window.all_hypos[i] = hypo.replace(/,/g, '');
     });
 
     $("#hypo-frame").text(window.all_hypos[window.counter])
